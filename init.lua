@@ -64,19 +64,6 @@ return {
     },
   },
 
-  -- configure my plugins
-  plugins = {
-    init = {
-      {
-        "folke/todo-comments.nvim",
-        requires = "nvim-lua/plenary.nvim",
-        config = function()
-          require("todo-comments").setup {
-          }
-        end
-      },
-    },
-  },
 
   -- This function is run last and is a good place to configuring
   -- augroups/autocommands and custom filetypes also this just pure lua so
