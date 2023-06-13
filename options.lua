@@ -13,6 +13,7 @@ return {
     undodir = os.getenv("HOME") .. "/.vim/undodir",
     undofile = true,
     autoread = true, -- hot reload files
+    colorcolumn = "80",
   },
   g = {
     mapleader = " ",                 -- sets vim.g.mapleader

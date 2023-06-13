@@ -16,6 +16,9 @@ return {
       }
     end
   },
+  {
+    'Bekaboo/deadcolumn.nvim', lazy=false,
+  },
   {"folke/todo-comments.nvim", lazy=false},
   {'jinh0/eyeliner.nvim', lazy=false},
   -- {
